@@ -8,20 +8,14 @@ A full-stack e-commerce platform built from scratch, covering everything from pr
 
 ---
 
-## 📌 Overview
+## Overview
 
 Brightify is a modern online store designed to simulate a real-world e-commerce system.  
-The project focuses on building a complete production-ready workflow including:
-
-- frontend UI/UX
-- backend APIs
-- authentication
-- payment integration
-- deployment & scaling
+The project focuses on building a complete production-ready workflow including frontend UI/UX, backend APIs, authentication, payment integration, deployment, and scaling.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 Frontend and backend are deployed together using a serverless approach.
 
@@ -32,7 +26,7 @@ Frontend and backend are deployed together using a serverless approach.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React (Vite)
@@ -55,39 +49,37 @@ Frontend and backend are deployed together using a serverless approach.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🛒 E-commerce Core
+### E-commerce Core
 - Product listing with categories  
 - Product detail pages with reviews  
 - Cart system  
 - Checkout & order placement  
 
-### 💳 Payments
+### Payments
 - Razorpay integration  
 - Backend payment verification  
 - Secure order confirmation  
 
-### 👤 User System
+### User System
 - JWT-based authentication  
 - Email OTP login system  
 - User profile & order history  
 
-### 📊 Admin
+### Admin
 - Admin dashboard  
 - Product & category management  
 - Order tracking  
 
 ---
 
-## 🔄 Application Flow
+## Application Flow
 
 **User Journey:**
-
 Browse → Add to Cart → Checkout → Payment → Verification → Order Confirmation
 
 **Payment Flow:**
-
 1. Order created in backend  
 2. Razorpay order generated  
 3. Payment modal opened  
@@ -97,7 +89,7 @@ Browse → Add to Cart → Checkout → Payment → Verification → Order Confi
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 - Hosted on Vercel (frontend + backend)  
 - Django runs as serverless functions  
@@ -107,8 +99,9 @@ Browse → Add to Cart → Checkout → Payment → Verification → Order Confi
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
+```
 frontend/
 ├── components/
 ├── pages/
@@ -120,22 +113,18 @@ backend/
 ├── orders/
 ├── payments/
 ├── users/
-
+```
 
 ---
 
-## 🗄️ Storage
+## Storage
 
-Supabase is used for:
-- product images  
-- category images  
-- banners  
-
+Supabase is used for product images, category images, and banners.
 Images are compressed during upload to reduce size and improve load time.
 
 ---
 
-## 🔐 Security
+## Security
 
 - JWT authentication  
 - Email OTP verification  
@@ -145,7 +134,7 @@ Images are compressed during upload to reduce size and improve load time.
 
 ---
 
-## ⚡ Performance
+## Performance
 
 Optimizations implemented:
 - Lazy loading for all pages  
@@ -160,7 +149,7 @@ Optimizations implemented:
 
 ---
 
-## 🛠️ Challenges & Fixes
+## Challenges & Fixes
 
 - Debugged Razorpay payment issues  
 - Fixed media URL handling for storage  
@@ -171,7 +160,7 @@ Optimizations implemented:
 
 ---
 
-## 📊 Usage
+## Usage
 
 Currently running on Vercel Hobby plan:
 - Low request usage  
@@ -180,7 +169,7 @@ Currently running on Vercel Hobby plan:
 
 ---
 
-## 🔮 Roadmap
+## Roadmap
 
 - Improve performance (reduce LCP)  
 - Add search autocomplete  
@@ -191,23 +180,14 @@ Currently running on Vercel Hobby plan:
 
 ---
 
-## 🎯 Goal of the Project
+## Goal of the Project
 
-This project was built to go beyond UI development and cover:
-- real payment systems  
-- backend architecture  
-- deployment challenges  
-- debugging production issues  
-- freelance
+I built this project to challenge myself to go beyond basic UI development. I wanted to get hands-on experience with real-world complexities like integrating actual payment gateways, designing backend architectures, debugging live production deployments, and preparing for freelance work.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Mohammed Nihad**
 
-End-to-end development:
-- frontend
-- backend
-- deployment
-- debugging
+I handled the end-to-end development of this platform, from designing the frontend and building the Django APIs to configuring the Vercel deployment and debugging production regressions.
